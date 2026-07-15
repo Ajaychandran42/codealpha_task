@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ShopSphere — Premium Cricket Gear</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#/" class="logo">Shop<span>Sphere</span></a>
+    <nav class="main-nav">
+      <a href="#/">Catalog</a>
+      <a href="#/orders" id="nav-orders">My Orders</a>
+    </nav>
+    <div class="header-actions">
+      <span id="auth-status" class="auth-status"></span>
+      <a href="#/cart" class="cart-link">Cart <span id="cart-count" class="cart-count">0</span></a>
+    </div>
+  </div>
+</header>
+
+<div class="stitch-divider" aria-hidden="true"></div>
+
+<main id="app" class="app"></main>
+
+<footer class="site-footer">
+  <div class="stitch-divider" aria-hidden="true"></div>
+  <p>ShopSphere — built for players, by players. &copy; 2026</p>
+</footer>
+
+<div id="toast" class="toast"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
